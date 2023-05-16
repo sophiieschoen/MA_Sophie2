@@ -37,3 +37,5 @@ folder_path = "/mnt/nfs-students/nnUNet_raw/Dataset007_PETfixedmedianheader/imag
 
 # Call the function to print image information
 print_image_info(folder_path)
+
+##test github change 
