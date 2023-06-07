@@ -25,11 +25,9 @@ import numpy as np
 import nibabel as nib
 
 # Set the input and output directories
-input_dir = '/mnt/nfs-students/Labels_resampled/fixedmedianheader/'
-output_dir = '/mnt/nfs-students/Labels_resampled_binary/fixedmedianheader/'
-
+input_dir = '/mnt/students/Labels_nii'
+output_dir = '/mnt/students/Labels_nii/Labels_nii_binary'
 print("Output directory:", output_dir)
-
 # Loop through all the files in the input directory
 for filename in os.listdir(input_dir):
     if filename.endswith('.nii.gz'):
